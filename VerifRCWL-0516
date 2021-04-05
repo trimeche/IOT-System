@@ -1,0 +1,29 @@
+
+
+#include "ESP8266WiFi.h"
+int sensor= D2;  // Digital pin D2
+void setup() {
+  // put your setup code here, to run once:
+   Serial.begin(115200);
+   pinMode(sensor, INPUT);   // declare sensor as input
+
+}
+
+void loop() {
+  // put your main code here, to run repeat edly:
+    long state = analogRead(sensor);
+    Serial.println(state);
+    if(state >= 200) {
+      //Serial.println(state);
+      Serial.println("Motion detected!");
+      Serial.println("Turnn Onn light");
+      delay(1000);
+    }
+    else {
+      //Serial.println(state);
+      Serial.println("Motion absent!");
+      Serial.println("Turn Off the Light");
+      delay(1000);
+      }
+
+}
