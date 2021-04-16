@@ -5,7 +5,16 @@ Step Number 1 :
 
 * Download the repository ESP32-CAM-Main 
 
-* RUN THE CODE 
+* RUN THE CODE "WIFICAM"
+  - change SSID and Password 
+  - If you are working with the esp32-cam and arduino ,try to connect the pin : 
+  
+ESP32-CAM                   Arduino 
+ 3V3                      3.3V
+ IOO -GND                  GND-Reset  
+ UDT                       TX
+ UDR                       RX
+
 
 *  Have a link like :  'http://192.168.0.153/cam.bmp'
 
