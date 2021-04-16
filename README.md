@@ -9,11 +9,11 @@ Step Number 1 :
   - change SSID and Password 
   - If you are working with the esp32-cam and arduino ,try to connect the pin : 
   
-ESP32-CAM                   Arduino 
- 3V3                      3.3V
- IOO -GND                  GND-Reset  
- UDT                       TX
- UDR                       RX
+ESP32-CAM                      Arduino 
+ 3V3                             3.3V
+ IOO -GND                       GND-Reset  
+ UDT                            TX
+ UDR                            RX
 
 
 
